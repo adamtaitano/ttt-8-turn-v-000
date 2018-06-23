@@ -15,6 +15,7 @@ def display_board(array = [" "," "," "," "," "," "," "," "," "])
 end
 
 def position_taken?(board, index)
+  if board[index] != " "
 end
 
 def valid_move?(board, index)
