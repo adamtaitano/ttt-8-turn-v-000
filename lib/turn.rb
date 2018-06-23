@@ -51,5 +51,7 @@ def turn(board)
   if !valid_move?(board, index)
     puts "Please re-enter your choice"
     choice = gets.chomp
+    index = input_to_index(choice)
   end
+  move(board, index, token)
 end
