@@ -1,4 +1,4 @@
-def display_board(board)
+def display_board(board = [" "," "," "," "," "," "," "," "," "])
   cell = " "
   seperator = "-----------"
   bracket = "|"
